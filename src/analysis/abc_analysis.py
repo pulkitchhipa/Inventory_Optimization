@@ -1,5 +1,5 @@
 from pyspark.sql.window import Window
-from pyspark.sql.functions import sum, col, percent_rank
+from pyspark.sql.functions import sum, col, percent_rank, when
 
 
 def abc_classification(sales_df):
